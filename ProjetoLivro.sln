@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoLivro.Web", "Projeto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoLivro.BL", "ProjetoLivro.BL\ProjetoLivro.BL.csproj", "{D41CE397-0C50-454D-8A81-107FF64B4304}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoLivro.Test", "ProjetoLivro.Test\ProjetoLivro.Test.csproj", "{6698C4FE-833F-4E55-877C-F0E9E276A93E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D41CE397-0C50-454D-8A81-107FF64B4304}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D41CE397-0C50-454D-8A81-107FF64B4304}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D41CE397-0C50-454D-8A81-107FF64B4304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6698C4FE-833F-4E55-877C-F0E9E276A93E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6698C4FE-833F-4E55-877C-F0E9E276A93E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6698C4FE-833F-4E55-877C-F0E9E276A93E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6698C4FE-833F-4E55-877C-F0E9E276A93E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

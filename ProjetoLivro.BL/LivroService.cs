@@ -13,7 +13,7 @@ namespace ProjetoLivro.BL
 
         public List<Livro> GetLivrosAtivos()
         {
-            return _context.Livros.Where(a => a.Status == true).ToList();
+            return _context.Livros.Where(a => a.Status== true).ToList();
         }
 
         public void Salvar(Livro livro)
