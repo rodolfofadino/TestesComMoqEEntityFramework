@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 using ProjetoLivro.BL;
@@ -16,6 +17,12 @@ namespace ProjetoLivro.Web.Controllers
         {
             return View(livroService.GetLivrosAtivos());
         }
+
+        public async Task<ActionResult> IndexAsync()
+        {
+            return View(await livroService.GetLivrosAtivosAsync());
+        }
+
 
         // GET: /Livro/Create
         public ActionResult Create()

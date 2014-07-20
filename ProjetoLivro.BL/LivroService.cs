@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace ProjetoLivro.BL
 {
@@ -14,6 +16,11 @@ namespace ProjetoLivro.BL
         public List<Livro> GetLivrosAtivos()
         {
             return _context.Livros.Where(a => a.Status== true).ToList();
+        }
+
+        public Task<List<Livro>> GetLivrosAtivosAsync()
+        {
+            return _context.Livros.Where(a => a.Status == true).ToListAsync();
         }
 
         public void Salvar(Livro livro)
